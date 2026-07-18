@@ -129,9 +129,13 @@
 ```aura width=860 height=140
 (function() {
  var langCount = (github && github.languages && github.languages.length) || 0;
+ // Graph totals: 284 (2024) + 533 (2025) + 252 (2026). readme-aura only exposes owned-repo commits (~75).
+ var graphContributions = 284 + 533 + 252;
+ var apiCommits = (github && github.stats && github.stats.totalCommits) || 0;
+ var bigNumber = Math.max(graphContributions, apiCommits);
  var stats = [
    { label: 'Repos', value: String((github && github.stats && github.stats.totalRepos) || 0), color: '#a78bfa' },
-   { label: 'Contributions', value: String((github && github.stats && github.stats.totalCommits) || 0), color: '#60a5fa' },
+   { label: 'Contributions', value: String(bigNumber), color: '#60a5fa' },
    { label: 'Languages', value: String(langCount), color: '#f59e0b' },
  ];
 
