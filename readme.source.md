@@ -377,7 +377,7 @@
 
 ```aura width=138 height=44 link="https://x.com/adamscalesapps" inline align=center
 <SocialMediaButton
-  icon="https://cdn.simpleicons.org/x/ffffff"
+  icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAM1BMVEUAAAD////f398QEBAgICDv7+9wcHBAQECAgIC/v7/Pz8+vr6+QkJAwMDBQUFCfn59gYGBA/ZVxAAAA2ElEQVQ4jc1SSRLDIAzD7GuS/7+2yKQNENJrqwMMFiBbthB/gkSMrY/F/qik8d4bo69QJt9fd2SFOCh8An7k8aAIseMaw1KaslBSKig1kUL1NMFRxsIiWko98xBxWCx4s+CFihCJRquIqwsUJFZMvFKdYcFYmgvsEKAdHgQ4exOw3EucRfKXL2BoehSpBRo29EkkkbXN0LUIdzA1Q7clj3fvrt1FNoq8O9rhapj5Wv7ZoUzHWfDAXx1uUxHGjioJA07wVLCrQ4HdKdPufexD04jW/4Dl2PwELxkCBNiT/pD8AAAAAElFTkSuQmCC"
   text="X.com"
   backgroundColor="#141414"
   width={138}
@@ -395,7 +395,7 @@
 
 ```aura width=110 height=44 link="mailto:mirkhanadam@gmail.com" inline align=center
 <SocialMediaButton
-  icon="https://cdn.simpleicons.org/gmail/EA4335"
+  icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFAklEQVRYhbVXW2xUVRRde99hpp3pdFKehYJiLZTysDyMPCSm0qAIajB+oNFEjP1AMdoETUBDAgZQJHw0GqMoIRp8kBhjNDRAgy9SBIqBQmgk0AEkLS2F0qGd6bQz52w/5nnn3rZTxPV179777LXOuefusw8hS2it8wE8KSJLAJQDKAbgjbtvA7gEoJGIDgPYz8y3s809FHGpUmqPUqpXsoRSKqSU2q21nnLHxCLiVkrtVEpFsyW2ERJRSu3QWucOd9ZTlVLn7pTYRsgZrXWJHRfZkM8VkYPMPDrTp661oO/XQ4icOonoFT90oAsQAef7YNxbDGf5XLgql8EommQ3qQ5mfoyITg8oQGs9VUTqM8lVWyuCuz5C35FfAJHBl48Irocr4FnzJozCCRYRRLSImS9aBGitPSJygpmnpw8K19Wip2Y7JNw7OHGmjlw3vOvehatiaaaIs0Q0n5l7AYATDhF5L5M89N2X6N6+adjkACC9IfQ3/GmxM/MsEdmcFBpXVSoi55jZSDjCdbXo3r7JNrmjuATOhxbBGF8EEEG1tqC/4SiizReSMTkrnoG3ej1Alm0GrXWUiMqY+SIBgFJqDzOvTgSoay24VfU8pC9sGmiML0Je9Xo45823FdZ/8hi6d26Fa3EF8taus41JE7HbMIwqEhGf1rqNmXMSzmDNGwj9fMw0YETZTPi21YC8XkuydEgoCHJ7Bo2JCwgRUSGLyIp0cun1w1W2C64HO5LBPHIU8rfsHJIcQFbkAMDMbgDLWWK1PTWD9n2AoeFe2gLPyssgp8DzylqwryCrxMOBiCxxIHawpIydvyWfnWVdcBTlwVm57K6Tx1HuQOxUSwkINpkijCkLAIdjwAyV24JZs21c6ULFdFOuYkbqSI0h0mF6pVzbEn5HaO2yVFEf2wX+X+iPWss4I9ZMpDBijOlVQhdwt+BxWYpSwIFYJzMqYaG8GZDO9mREW1cTxuooRrD9Pjj8jv1vd6lDo+pzcwkf57MI8DOAxnQLFTyafD7QNxHPtRaj9vLvtiSD4USzstimjjcyTY0c7+FSAsatQgQO7Oh5AJu75yIMA5+c/QY3w11Zk/eEBd8fj5hs94xmFGasABEdZgD7tdbJtaLcyfjMswE/hCcnAzvDAVT/sQ2B/u4hySMK2PJjHzqD5g33RLn5E8ZLcS3Hu9dv052rZq2B25FjGvD3LT9ePPg2jrT+NSD5ha4reHX/PjT4+032kR7CU3Mse+hrIupJHMdTRKSJObXTDlw5go3HamyJJucXYWHhHEzKKwQR4XrvTZy63oTGG+chEBjhErjbXwdFY+V787M5WFya+v5a60j8OG5OfhSl1A5mfiudaO/5n1Bz+qsBZzwYSHmR2/4aXp5XjtWPOE0+rfUHhmFsANJaMhFxa62PM/PM9OBD/9Rja8OnCEWH1xUZZKCq7AVUzXo6k7yRmRcQUdgkIO4sEZGjzGyqRm2hG/i4cS/qrtZDD9WUApg3dgaqZ7+EaQWmYwZa63ZmXkRE/oTNUhlEZLbW+lCmCAC4FuxA3dV6NLSfRXPgKm71BSAC+Fxe3OudgNljpqFy4kKUFtxnEaW1bieix5m50eK0CS5RSp25ixeT0yJSPCRxhohcpdSHSqnIfyDuV0q9LyI5QzMOvhpfKKWCwyAOKqV2aa3vHyq/tWceWIgXwHIxX899cXcAgB/x6zkR1RJRTzZ5/wXdyH6XrEznkwAAAABJRU5ErkJggg=="
   text="Email"
   backgroundColor="#2b0a0a"
   width={110}
@@ -411,5 +411,3 @@
 />
 ```
 
-<br>
-<p align="center"><sub>𝗉𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 <a href="https://github.com/collectioneur/readme-aura">𝗋𝖾𝖺𝖽𝗆𝖾-𝖺𝗎𝗋𝖺</a></sub></p>
